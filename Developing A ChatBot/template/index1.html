@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Yankee</title>
+        <link href="./style.css"> 
+        <style>
+            *{
+    margin: 0px;
+    padding:0px;
+}
+.outer-layer
+{
+    background-image: url(./images/banner-01.jpg);
+    height: 1000px;
+}
+.header{
+    display: flex;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+.submenu ul li{
+    list-style-type: none;
+    padding: 10px 0px;
+}
+.submenu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+} 
+.submenu{
+    background-color: white;
+    width:100px ;
+    position: absolute;
+    left: 25%;
+    padding: 0px 20px;
+    top: 28%;
+    display: none;
+}
+.ho:hover .submenu{
+    display: block;
+
+} 
+
+.header-left
+{
+    background-color:white;
+    padding: 20px 40px;
+}
+.header-left{
+    display: flex;
+    width:70%;
+    margin: 0px 2%;
+    justify-content: space-between;
+}
+.header-left img{
+    padding: 10px 0px;
+}
+nav ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 0px 10px;
+    margin:20px 5px ;
+}
+.name{
+    margin-top: 20px;
+}
+.header-right{
+    margin-left: 0px 2%;
+    background-color:#ffaa17;
+    display: flex;
+    padding:20px 20px ;
+    width:15%;
+}
+.I p{
+
+}
+        </style>  
+        <script src="https://kit.fontawesome.com/5b83f3d1ac.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="outer-layer">
+            <div class="header">
+               <div class="header-left">
+                   <img src="./images/yankee.png">
+                   <nav class="main">
+                       <ul>
+                           <li><a href="#" class="ho">Home</a></li>
+                           <li><a href="#">About us</a></li>
+                           <li><a href="#">services</a></li>
+                           <li><a href="#">pages</a></li>
+                           <li><a href="#">News</a></li>
+                           <li><a href="#">Contact</a></li>
+                       </ul>
+                   </nav>
+                   <div class="name">
+                       <i class="fas fa-search"> </i>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <i class="fas fa-phone" style="margin-right :20px; color:white;"> </i>
+                    <div>
+                      <p>PHONE NUMBER</p>
+                      <P>987-987-987-98</P>
+                   </div>
+                </div>
+            </div>
+        </div>          
+    </body>
+</html>
