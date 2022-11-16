@@ -1,0 +1,12 @@
+center{ 
+    margin: auto; 
+    width: 10%;
+    }
+    h1{
+    text-align:center;
+    }
+    input{
+    border-radius:5px; 
+    padding:5px;
+    }
+    
